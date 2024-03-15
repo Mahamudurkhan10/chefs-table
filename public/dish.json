@@ -1,0 +1,92 @@
+[
+    {
+        "recipe_id": 1,
+        "recipe_name": "Grilled Salmon",
+        "recipe_image": "https://i.ibb.co/mtQVSbQ/cooked-salmon-steaks.jpg",
+        "short_description": "A delicious and healthy grilled salmon recipe.",
+        "ingredients": [
+            "4 salmon fillets",
+            "2 tablespoons olive oil",
+            "2 cloves garlic, minced",
+            "1 lemon, sliced",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "20 min",
+        "calories": "250 calories"
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Stir-Fry",
+        "recipe_image": "https://i.ibb.co/kx8q9B9/veggie-stir-fry-1597687367.jpg",
+        "short_description": "A quick and easy vegetable stir-fry packed with flavor.",
+        "ingredients": [
+            "2 cups mixed vegetables (broccoli, bell peppers, carrots, snap peas)",
+            "3 tablespoons soy sauce",
+            "2 tablespoons sesame oil",
+            "1 tablespoon minced ginger",
+            "2 cloves garlic, minced"
+        ],
+        "preparing_time": "15 min",
+        "calories": "180 calories"
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Chicken Caesar Salad",
+        "recipe_image": "https://i.ibb.co/bbDSHMM/istockphoto-534139231-612x612.jpg",
+        "short_description": "Classic Caesar salad with grilled chicken.",
+        "ingredients": [
+            "2 chicken breasts, grilled and sliced",
+            "1 head romaine lettuce, chopped",
+            "1/4 cup grated Parmesan cheese",
+            "1/2 cup croutons",
+            "Caesar dressing to taste"
+        ],
+        "preparing_time": "25 min",
+        "calories": "320 calories"
+    },
+    {
+        "recipe_id": 4,
+        "recipe_name": "Pasta Carbonara",
+        "recipe_image": "https://i.ibb.co/56rjGy6/pstockphoto-177413384-612x612.jpg",
+        "short_description": "Creamy pasta dish with bacon and Parmesan cheese.",
+        "ingredients": [
+            "8 oz spaghetti",
+            "4 slices bacon, chopped",
+            "2 cloves garlic, minced",
+            "2 large eggs",
+            "1/2 cup grated Parmesan cheese"
+        ],
+        "preparing_time": "30 min",
+        "calories": "380 calories"
+    },
+    {
+        "recipe_id": 5,
+        "recipe_name": "Vegetarian Chili",
+        "recipe_image": "https://i.ibb.co/JpnqwhC/istockphoto-1057064406-612x612.jpg",
+        "short_description": "Hearty and flavorful vegetarian chili.",
+        "ingredients": [
+            "1 can black beans, drained and rinsed",
+            "1 can kidney beans, drained and rinsed",
+            "1 can diced tomatoes",
+            "1 bell pepper, diced",
+            "1 onion, diced"
+        ],
+        "preparing_time": "40 min",
+        "calories": "220 calories"
+    },
+    {
+        "recipe_id": 6,
+        "recipe_name": "Fruit Salad",
+        "recipe_image": "https://i.ibb.co/3dZ6TKc/sstockphoto-511622035-612x612.jpg",
+        "short_description": "Refreshing and colorful fruit salad.",
+        "ingredients": [
+            "1 apple, diced",
+            "1 banana, sliced",
+            "1 cup strawberries, sliced",
+            "1 cup grapes",
+            "1/4 cup honey"
+        ],
+        "preparing_time": "10 min",
+        "calories": "150 calories"
+    }
+]
