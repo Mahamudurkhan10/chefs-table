@@ -13,8 +13,8 @@ const Recipe = ({recipe,handleCook}) => {
                  <h2 className="card-title"> {recipe_name} </h2>
                  <p> {short_description} </p>
                  <div className="divider " ></div>
-                 <h1> Ingredients : {ingredients.length} </h1>
-                     <div>
+                 <h1 className="text-xl font-medium" > Ingredients : {ingredients.length} </h1>
+                     <div className="text-lg fontb">
                          <li> {ingredients[0].slice(0,20)} </li>
                          <li> {ingredients[1].slice(0,20)} </li>
                          <li> {ingredients[2].slice(0,20)} </li>

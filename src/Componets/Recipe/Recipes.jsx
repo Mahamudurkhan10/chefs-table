@@ -54,7 +54,7 @@ const Recipes = () => {
                 <ToastContainer />
             </div>
 
-            <div className="card bg-slate-200 textce" >
+            <div className="card bg-slate-200" >
                 <Cook cook={cook}
                     handleRemoveCook={handleRemoveCook}
                     current={current}
