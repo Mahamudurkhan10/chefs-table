@@ -42,9 +42,14 @@ const Recipes = () => {
     }
 
     return (
-        <div className="mt-10 container grid grid-cols-2 gap-14">
-
-            <div className="grid grid-cols-2 gap-12" >
+        <>
+          <div className="text-center lg:mt-7 mt-9">
+            <h1 className="text-3xl font-bold ">Our Recipes  </h1>
+            <p className="text-lg font-medium text-[#878787] mt-3">Marinate chicken in lemon, garlic, and herbs before grilling for a zesty and tender main dish.</p>
+          </div>
+        <div className="mt-10 container grid lg:grid-cols-2 gap-14">
+               
+            <div className="grid lg:grid-cols-2 gap-12" >
                 {
                     recipes.map(recipe => <div className="" key={recipe.recipe_id} >
                         <Recipe recipe={recipe} handleCook={handleCook} ></Recipe>
@@ -64,6 +69,7 @@ const Recipes = () => {
 
 
         </div>
+        </>
     );
 };
 

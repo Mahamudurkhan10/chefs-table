@@ -6,9 +6,9 @@ const Banner = () => {
             <div className="hero  h-[500px]" style={{ backgroundImage: 'url(https://i.ibb.co/tKg7g8r/johnathan-macedo-4-NQEvx-W2-4w-unsplash.jpg)' }}>
                 <div className="hero-overlay  bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
-                    <div className="w-4/6">
-                        <h1 className="mb-5 text-5xl  font-bold">Discover an exceptional cooking class tailored for you!</h1>
-                        <p className="mb-5 text-gray-300 text-sm text-gray-200 font-normal ">
+                    <div className=" lg:w-4/6">
+                        <h1 className="mb-5 lg:text-5xl text-2xl  font-bold">Discover an exceptional cooking class tailored for you!</h1>
+                        <p className="mb-5 text-sm text-gray-300 font-normal ">
                             In my kitchen domain, where flavors collide,
                             I blend, I sauté, with culinary pride.
                             With each dish I create, a story unfolds wide,
