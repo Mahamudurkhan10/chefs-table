@@ -1,23 +1,43 @@
 
 
-const Recipe = ({ recipe }) => {
-    const { recipe_name, recipe_image, short_description, ingredients, preparing_time, calories } = recipe;
+const Recipe = ({recipe,handleCook}) => {
+      const {recipe_name, recipe_image,short_description,ingredients,preparing_time,calories}=recipe;
     return (
         <div>
-            <div>
-                <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src= {recipe_image} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">{recipe_name}</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions ">
-                            <button className="btn btn-primary">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+             
+          
+           
+          <div className="card w-96 bg-base-100 shadow-xl">
+             <figure><img src={recipe_image} alt="Shoes" /></figure>
+             <div className="card-body">
+                 <h2 className="card-title"> {recipe_name} </h2>
+                 <p> {short_description} </p>
+                 <div className="divider " ></div>
+                 <h1> Ingredients : {ingredients.length} </h1>
+                     <div>
+                         <li> {ingredients[0].slice(0,20)} </li>
+                         <li> {ingredients[1].slice(0,20)} </li>
+                         <li> {ingredients[2].slice(0,20)} </li>
+                     </div>
+                
+                 <div className="divider"></div>
+                   <div className="flex justify-between">
+                         <p><i className="fa-regular fa-clock "></i><span className="ml-3" >{preparing_time}</span></p>
+                         <p><i className="fa-solid fa-droplet "></i><span className="ml-3" > {calories} </span> </p>
+                     </div>  
+                 
+                     <div className="">
+                     <button onClick={()=>handleCook(recipe)}  className="btn  btn-success rounded-full p-2 text-lg text-gray-200">Want to Cook</button>
+                    
+                 </div>
+               
+             </div>
+         </div>
+               
+           
+          
+           </div>
+       
     );
 };
 

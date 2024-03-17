@@ -2,14 +2,16 @@
     {
         "recipe_id": 1,
         "recipe_name": "Grilled Salmon",
-        "recipe_image": "https://i.ibb.co/wYbqY46/grilled-salmon-with-asparagus-white-plate-isolated-black-background.jpg",
+        "recipe_image": "https://i.ibb.co/ZhPL54n/roasted-salmon-steak-cast-iron-pan-served-with-mashed-potato.jpg",
         "short_description": "A delicious and healthy grilled salmon recipe.",
         "ingredients": [
             "4 salmon fillets",
             "2 tablespoons olive oil",
             "2 cloves garlic, minced",
             "1 lemon, sliced",
+            "Salt and pepper to taste",
             "Salt and pepper to taste"
+            
         ],
         "preparing_time": "20 min",
         "calories": "250 calories"
@@ -24,6 +26,7 @@
             "3 tablespoons soy sauce",
             "2 tablespoons sesame oil",
             "1 tablespoon minced ginger",
+            "2 cloves garlic, minced",
             "2 cloves garlic, minced"
         ],
         "preparing_time": "15 min",
@@ -39,6 +42,7 @@
             "1 head romaine lettuce, chopped",
             "1/4 cup grated Parmesan cheese",
             "1/2 cup croutons",
+            "Caesar dressing to taste",
             "Caesar dressing to taste"
         ],
         "preparing_time": "25 min",
@@ -54,6 +58,7 @@
             "4 slices bacon, chopped",
             "2 cloves garlic, minced",
             "2 large eggs",
+            "1/2 cup grated Parmesan cheese",
             "1/2 cup grated Parmesan cheese"
         ],
         "preparing_time": "30 min",
@@ -69,6 +74,7 @@
             "1 can kidney beans, drained and rinsed",
             "1 can diced tomatoes",
             "1 bell pepper, diced",
+            "1 onion, diced",
             "1 onion, diced"
         ],
         "preparing_time": "40 min",
@@ -84,6 +90,7 @@
             "1 banana, sliced",
             "1 cup strawberries, sliced",
             "1 cup grapes",
+            "1/4 cup honey",
             "1/4 cup honey"
         ],
         "preparing_time": "10 min",
